@@ -1,0 +1,5 @@
+/vis/disable
+#/MuonProject/histo/setHisto 18 250 0.1 100
+#/MuonProject/histo/setHisto 12 100 100 900
+/run/beamOn 1000000
+

@@ -1,0 +1,4 @@
+/Users/alex/Documents/Thin Foil/Xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/alex/Documents/Thin Foil/Xcode/CMakeFiles/ALL_BUILD.dir
+/Users/alex/Documents/Thin Foil/Xcode/CMakeFiles/B1.dir
+/Users/alex/Documents/Thin Foil/Xcode/CMakeFiles/MuonProject_rev2.dir
