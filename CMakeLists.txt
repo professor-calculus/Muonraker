@@ -2,7 +2,7 @@
 
 #----------------------------------------------------------------------------
 # Setup the project
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(Muonraker)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -24,7 +24,7 @@ endif()
 # Find ROOT (optional package)
 #
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH})
-find_package(ROOT)
+find_package(ROOT REQUIRED COMPONENTS MathCore RIO Hist Tree Net)
 if(ROOT_FOUND)
   message(STATUS "G4 Examples: ROOT found. --> iort_therapy example with ROOT enabled.") 
   # Uncomment this line if suitable (some customization may be needed)
@@ -33,12 +33,14 @@ else()
   message(STATUS "G4 Examples: ROOT not found. --> iort_therapy example with ROOT disabled.") 
 endif()
 
+list(APPEND CMAKE_PREFIX_PATH $ENV{ROOTSYS})
+
 #----------------------------------------------------------------------------
 # Setup Geant4 include directories and compile definitions
 # Setup include directory for this project
 #
 include(${Geant4_USE_FILE})
-include_directories(${PROJECT_SOURCE_DIR}/include ${ROOT_INCLUDE_DIR})
+include_directories(${PROJECT_SOURCE_DIR}/include ${ROOT_INCLUDE_DIRS})
 
 
 #----------------------------------------------------------------------------
@@ -52,7 +54,7 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 # Add the executable, and link it to the Geant4 libraries
 #
 add_executable(MuonProject_rev2 MuonProject_rev2.cc ${sources} ${headers})
-target_link_libraries(MuonProject_rev2 ${Geant4_LIBRARIES} ${ROOT_LIBRARIES})
+target_link_libraries(MuonProject_rev2 ${ROOT_LIBRARIES} ${Geant4_LIBRARIES})
 
 #----------------------------------------------------------------------------
 # Copy all scripts to the build directory, i.e. the directory in which we

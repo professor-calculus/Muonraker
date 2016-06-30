@@ -4,7 +4,7 @@
  ------------------------------------- Target.cc -----------------------------------------------------------------------
  --   This file sets up the geometry of the target and detectors/absorbers etc. It also sets up the materials we want
  --   to make each component from. Magnetic fields are added in certain regions/volumes. Non-uniform mag fields are
- --   do-able if so desired, e.g. for a magnetic horn.
+ --   do-able if so desired, e.g. for a magnetic horn. We can even do time-dependent mag/elec fields, but they aren't very good
  -----------------------------------------------------------------------------------------------------------------------
 */
 
@@ -127,9 +127,7 @@ void Target::DefineMaterials()
     G4Element* B = manager->FindOrBuildElement(5);
 
     //Tungsten
-    G4Material* Tungsten =
-    
-    new G4Material("Tungsten", density=19.25*CLHEP::g/CLHEP::cm3, ncomp=1);
+    G4Material* Tungsten = new G4Material("Tungsten", density=19.25*CLHEP::g/CLHEP::cm3, ncomp=1);
     Tungsten->AddElement(W, natoms=1);
     //Silicon
     G4Material* Silicon = new G4Material("Silicon", density= 19.30*CLHEP::g/CLHEP::cm3, ncomp=1);
@@ -399,7 +397,8 @@ void Target::SetupGeometry()
     
     //---------------------------------Absorber Blocks
     //
-    
+   
+    /*
     G4UniformMagField* magField3
     = new G4UniformMagField(G4ThreeVector(-sin(CLHEP::pi/8)*fieldstrength*CLHEP::tesla,0.,cos(CLHEP::pi/8)*fieldstrength*CLHEP::tesla));
     
@@ -414,6 +413,7 @@ void Target::SetupGeometry()
     
     
     
+    
     G4UniformMagField* magField4
     = new G4UniformMagField(G4ThreeVector(sin(CLHEP::pi/8)*fieldstrength*CLHEP::tesla,0.,cos(CLHEP::pi/8)*fieldstrength*CLHEP::tesla));
     
@@ -425,11 +425,13 @@ void Target::SetupGeometry()
     G4ChordFinder* iChordFinder4 = new G4ChordFinder(magField4,1.0e-2*CLHEP::mm,iStepper4);
     
     G4FieldManager* fm4 = new G4FieldManager(magField4,iChordFinder4);
-   
+    */
     
+    
+    /*
     MuonTagAbs_box = new G4Box("muontagabs_box",300.*CLHEP::mm,300.*CLHEP::mm,600.*CLHEP::mm);
-    MuonTagAbs_log[0] = new G4LogicalVolume(MuonTagAbs_box,stopblock_material,MuonTagAbs[0]+"_log",fm3,0,0);
-    MuonTagAbs_log[1] = new G4LogicalVolume(MuonTagAbs_box,stopblock_material,MuonTagAbs[1]+"_log",fm4,0,0);
+    MuonTagAbs_log[0] = new G4LogicalVolume(MuonTagAbs_box,stopblock_material,MuonTagAbs[0]+"_log",0,0,0);
+    MuonTagAbs_log[1] = new G4LogicalVolume(MuonTagAbs_box,stopblock_material,MuonTagAbs[1]+"_log",0,0,0);
     
     for(int haddock=0;haddock<2;haddock++)
     {
@@ -437,7 +439,7 @@ void Target::SetupGeometry()
         rotn[haddock]->rotateY((-2*haddock + 1)*CLHEP::pi/8);
         MuonTagAbs_phys[haddock] = new G4PVPlacement(rotn[haddock],G4ThreeVector(0.75*(2*haddock - 1)*CLHEP::m,0.,0.95*CLHEP::m),MuonTagAbs_log[haddock],MuonTagAbs[haddock],experimentalHall_log,0,0);
     }
-    
+    */
     
     
     
@@ -450,6 +452,7 @@ void Target::SetupGeometry()
     
     
     
+    /*
     //-------------------------RF Quadrupole---------------
     //
     MagQuadrupole_box = new G4Tubs("magquadrupole_box",0,5.*CLHEP::mm,0.9*CLHEP::m,0,2.*CLHEP::pi);
@@ -461,6 +464,9 @@ void Target::SetupGeometry()
     MagQuadrupole_phys[1] = new G4PVPlacement(0,G4ThreeVector(-0.5*quadrupoledistance*CLHEP::m,0.,4.7625*CLHEP::m),MagQuadrupole_log[1],MagQuadrupole[1],experimentalHall_log,0,0);
     MagQuadrupole_phys[2] = new G4PVPlacement(0,G4ThreeVector(0.,0.5*quadrupoledistance*CLHEP::m,3.7625*CLHEP::m),MagQuadrupole_log[2],MagQuadrupole[2],experimentalHall_log,0,0);
     MagQuadrupole_phys[3] = new G4PVPlacement(0,G4ThreeVector(0.,-0.5*quadrupoledistance*CLHEP::m,3.7625*CLHEP::m),MagQuadrupole_log[3],MagQuadrupole[3],experimentalHall_log,0,0);
+     
+    */
+     
     
 /*    //------------RF Quadrupole:
     
@@ -505,11 +511,13 @@ void Target::SetupGeometry()
     shield_log[1]->SetVisAttributes(vis1);
     tungsten_log->SetVisAttributes(vis4);
     targetblock_log->SetVisAttributes(vis5);
+    
+    /*
     MagQuadrupole_log[0]->SetVisAttributes(vis6);
     MagQuadrupole_log[1]->SetVisAttributes(vis6);
     MagQuadrupole_log[2]->SetVisAttributes(vis6);
     MagQuadrupole_log[3]->SetVisAttributes(vis6);
-
+    */
 
 }
 
