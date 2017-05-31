@@ -58,69 +58,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		04D6EBE7BF4E482F936FEFF2 /* /Users/alex/Documents/Thin Foil/include/HistoMessenger.hh */ = {isa = PBXBuildFile; fileRef = 27992334CA404D1F8E32FA2B /* /Users/alex/Documents/Thin Foil/include/HistoMessenger.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		09BF530B48DC4C91AA4868EE /* /Users/alex/Documents/Thin Foil/src/HistoManager.cc */ = {isa = PBXBuildFile; fileRef = 4C924ECEBA92460FAA0CF8B5 /* /Users/alex/Documents/Thin Foil/src/HistoManager.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		0B73FE0A1E82482C8F6606ED /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingAction.cc */ = {isa = PBXBuildFile; fileRef = 333434B4D87041418DB4360E /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		0CD77303E9A14EFFA9685BB2 /* /Users/alex/Documents/Thin Foil/include/HistoManager.hh */ = {isa = PBXBuildFile; fileRef = 65A27E84EA1542E486316869 /* /Users/alex/Documents/Thin Foil/include/HistoManager.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		1E4567404EC94F3CB9B5CA12 /* /Users/alex/Documents/Thin Foil/src/ProjectRunAction.cc */ = {isa = PBXBuildFile; fileRef = 5711D14D84B44E1DBF82BAC7 /* /Users/alex/Documents/Thin Foil/src/ProjectRunAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		25262B3E68114D96A8670860 /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingAction.hh */ = {isa = PBXBuildFile; fileRef = D53642DF09FA4AA58476CE6A /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingAction.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		2E693416600F4C3EA070232C /* /Users/alex/Documents/Thin Foil/src/ProjectPhysicsList.cc */ = {isa = PBXBuildFile; fileRef = A0F31CA137894280ABEDEA2B /* /Users/alex/Documents/Thin Foil/src/ProjectPhysicsList.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		2E9D88D669FD49A2B4291865 /* /Users/alex/Documents/Thin Foil/include/ProjectPhysicsList.hh */ = {isa = PBXBuildFile; fileRef = D470A510B6A24E20BA05C958 /* /Users/alex/Documents/Thin Foil/include/ProjectPhysicsList.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		314282C0FA344984B8257DF6 /* /Users/alex/Documents/Thin Foil/src/HistoMessenger.cc */ = {isa = PBXBuildFile; fileRef = 83AAC325ADA84F50B756543B /* /Users/alex/Documents/Thin Foil/src/HistoMessenger.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		36ECC66E3B7F4B26842210C5 /* /Users/alex/Documents/Thin Foil/src/ProjectDetectorMessenger.cc */ = {isa = PBXBuildFile; fileRef = BDCB78D4454F4567932072FF /* /Users/alex/Documents/Thin Foil/src/ProjectDetectorMessenger.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		41B49F501A6E465AA6BD902D /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9A866BFCEF8B42908B5C90DD /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		565622A9DF8F437FBDF65AB9 /* /Users/alex/Documents/Thin Foil/include/ProjectDetectorMessenger.hh */ = {isa = PBXBuildFile; fileRef = F03E1009C208454E93DE2077 /* /Users/alex/Documents/Thin Foil/include/ProjectDetectorMessenger.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		57B0E1E0ECFA4E81B70E75E4 /* /Users/alex/Documents/Thin Foil/include/ProjectRun.hh */ = {isa = PBXBuildFile; fileRef = 68A5AC532E9F4209A52751C6 /* /Users/alex/Documents/Thin Foil/include/ProjectRun.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		648071A765974516A628FD0B /* /Users/alex/Documents/Thin Foil/include/ProjectEventAction.hh */ = {isa = PBXBuildFile; fileRef = 51521545B20A4BEAAD0275D4 /* /Users/alex/Documents/Thin Foil/include/ProjectEventAction.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		7E6E96F030784C02AC3B3010 /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingVerbose.cc */ = {isa = PBXBuildFile; fileRef = 1CB1012D45B543A7AC94583A /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingVerbose.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		81E7B213B893468C8872B226 /* /Users/alex/Documents/Thin Foil/src/ProjectEventAction.cc */ = {isa = PBXBuildFile; fileRef = DB2C7FE1A860471C8B763AE7 /* /Users/alex/Documents/Thin Foil/src/ProjectEventAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		85F4CB5D4FD14B218AFFB213 /* /Users/alex/Documents/Thin Foil/src/ProjectPrimaryGeneratorAction.cc */ = {isa = PBXBuildFile; fileRef = 5C789F061AD9454587085DF4 /* /Users/alex/Documents/Thin Foil/src/ProjectPrimaryGeneratorAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		8F1D0EE323924CC0AF11A1FA /* /Users/alex/Documents/Thin Foil/MuonProject_rev2.cc */ = {isa = PBXBuildFile; fileRef = A802B8BBDF0C4745908846FA /* /Users/alex/Documents/Thin Foil/MuonProject_rev2.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		91499590878B4F73B5AA021B /* /Users/alex/Documents/Thin Foil/src/Target.cc */ = {isa = PBXBuildFile; fileRef = 6C4783F47CB54A5FA2ECA4AB /* /Users/alex/Documents/Thin Foil/src/Target.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		B3CEF837D0AD41DAB2A64869 /* /Users/alex/Documents/Thin Foil/include/F03FieldSetup.hh */ = {isa = PBXBuildFile; fileRef = FB5D3D824EF34197A81F73A7 /* /Users/alex/Documents/Thin Foil/include/F03FieldSetup.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		B82D496E0BAF44D78A566A75 /* /Users/alex/Documents/Thin Foil/include/Field.hh */ = {isa = PBXBuildFile; fileRef = B5BAC186949547BBA45CB747 /* /Users/alex/Documents/Thin Foil/include/Field.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		CA6857AC907F434CB329E6E9 /* /Users/alex/Documents/Thin Foil/include/ProjectStackingAction.hh */ = {isa = PBXBuildFile; fileRef = D5CA2E7FFCC44B24B8CC2358 /* /Users/alex/Documents/Thin Foil/include/ProjectStackingAction.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		CC96228265DC4503A804C729 /* /Users/alex/Documents/Thin Foil/include/ProjectRunAction.hh */ = {isa = PBXBuildFile; fileRef = 4E0431AB1FA743A4AE61427B /* /Users/alex/Documents/Thin Foil/include/ProjectRunAction.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		CDB8AF1483864A38B3D95956 /* /Users/alex/Documents/Thin Foil/src/ProjectRun.cc */ = {isa = PBXBuildFile; fileRef = B783CFC713784B0CB92F6644 /* /Users/alex/Documents/Thin Foil/src/ProjectRun.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		D5642A50333D419589E73441 /* /Users/alex/Documents/Thin Foil/src/ProjectStackingAction.cc */ = {isa = PBXBuildFile; fileRef = B08FAEFE970044699C1045C8 /* /Users/alex/Documents/Thin Foil/src/ProjectStackingAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
-		D7ABC16DC5CC423CB0CE4163 /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingVerbose.hh */ = {isa = PBXBuildFile; fileRef = 3534C11272C04AD8AEA4C100 /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingVerbose.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		E4F1E7E4D46644988BC11BF4 /* /Users/alex/Documents/Thin Foil/include/Target.hh */ = {isa = PBXBuildFile; fileRef = 3C584E5305624CD38375A789 /* /Users/alex/Documents/Thin Foil/include/Target.hh */; settings = {COMPILER_FLAGS = ""; }; };
-		F2E35AA896FC4839A7DEA10B /* /Users/alex/Documents/Thin Foil/include/ProjectPrimaryGeneratorAction.hh */ = {isa = PBXBuildFile; fileRef = 8E92593B3B5A410D9B67E355 /* /Users/alex/Documents/Thin Foil/include/ProjectPrimaryGeneratorAction.hh */; settings = {COMPILER_FLAGS = ""; }; };
+		09BF530B48DC4C91AA4868EE /* HistoManager.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4C924ECEBA92460FAA0CF8B5 /* HistoManager.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		0B73FE0A1E82482C8F6606ED /* ProjectSteppingAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = 333434B4D87041418DB4360E /* ProjectSteppingAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		1E4567404EC94F3CB9B5CA12 /* ProjectRunAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5711D14D84B44E1DBF82BAC7 /* ProjectRunAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		2E693416600F4C3EA070232C /* ProjectPhysicsList.cc in Sources */ = {isa = PBXBuildFile; fileRef = A0F31CA137894280ABEDEA2B /* ProjectPhysicsList.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		314282C0FA344984B8257DF6 /* HistoMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 83AAC325ADA84F50B756543B /* HistoMessenger.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		36ECC66E3B7F4B26842210C5 /* ProjectDetectorMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = BDCB78D4454F4567932072FF /* ProjectDetectorMessenger.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		7E6E96F030784C02AC3B3010 /* ProjectSteppingVerbose.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1012D45B543A7AC94583A /* ProjectSteppingVerbose.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		81E7B213B893468C8872B226 /* ProjectEventAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = DB2C7FE1A860471C8B763AE7 /* ProjectEventAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		85F4CB5D4FD14B218AFFB213 /* ProjectPrimaryGeneratorAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5C789F061AD9454587085DF4 /* ProjectPrimaryGeneratorAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		8F1D0EE323924CC0AF11A1FA /* MuonProject_rev2.cc in Sources */ = {isa = PBXBuildFile; fileRef = A802B8BBDF0C4745908846FA /* MuonProject_rev2.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		91499590878B4F73B5AA021B /* Target.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6C4783F47CB54A5FA2ECA4AB /* Target.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		CDB8AF1483864A38B3D95956 /* ProjectRun.cc in Sources */ = {isa = PBXBuildFile; fileRef = B783CFC713784B0CB92F6644 /* ProjectRun.cc */; settings = {COMPILER_FLAGS = ""; }; };
+		D5642A50333D419589E73441 /* ProjectStackingAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = B08FAEFE970044699C1045C8 /* ProjectStackingAction.cc */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		167CC8CEC8F54A1C916028D2 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		601F84380E7D47DDBDF43F5B /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		6C88EA4AE52C4ABB98B6D9D1 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		8D2FBE41670A48B69BB42307 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		EF27EE77739041F7902B04EB = {
-			isa = PBXBuildStyle;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		0C651372A0754864A2AB93C3 /* PBXContainerItemProxy */ = {
@@ -161,38 +112,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018A57A3124D4C4892547F8B /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		12F9C2BD56954B65B55418D4 /* MuonProject_rev2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MuonProject_rev2; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CB1012D45B543A7AC94583A /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingVerbose.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectSteppingVerbose.cc; path = src/ProjectSteppingVerbose.cc; sourceTree = SOURCE_ROOT; };
-		27992334CA404D1F8E32FA2B /* /Users/alex/Documents/Thin Foil/include/HistoMessenger.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HistoMessenger.hh; path = include/HistoMessenger.hh; sourceTree = SOURCE_ROOT; };
-		333434B4D87041418DB4360E /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectSteppingAction.cc; path = src/ProjectSteppingAction.cc; sourceTree = SOURCE_ROOT; };
-		3534C11272C04AD8AEA4C100 /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingVerbose.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectSteppingVerbose.hh; path = include/ProjectSteppingVerbose.hh; sourceTree = SOURCE_ROOT; };
-		3C584E5305624CD38375A789 /* /Users/alex/Documents/Thin Foil/include/Target.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Target.hh; path = include/Target.hh; sourceTree = SOURCE_ROOT; };
-		4C924ECEBA92460FAA0CF8B5 /* /Users/alex/Documents/Thin Foil/src/HistoManager.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HistoManager.cc; path = src/HistoManager.cc; sourceTree = SOURCE_ROOT; };
-		4E0431AB1FA743A4AE61427B /* /Users/alex/Documents/Thin Foil/include/ProjectRunAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectRunAction.hh; path = include/ProjectRunAction.hh; sourceTree = SOURCE_ROOT; };
-		51521545B20A4BEAAD0275D4 /* /Users/alex/Documents/Thin Foil/include/ProjectEventAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectEventAction.hh; path = include/ProjectEventAction.hh; sourceTree = SOURCE_ROOT; };
-		5711D14D84B44E1DBF82BAC7 /* /Users/alex/Documents/Thin Foil/src/ProjectRunAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectRunAction.cc; path = src/ProjectRunAction.cc; sourceTree = SOURCE_ROOT; };
-		5C789F061AD9454587085DF4 /* /Users/alex/Documents/Thin Foil/src/ProjectPrimaryGeneratorAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectPrimaryGeneratorAction.cc; path = src/ProjectPrimaryGeneratorAction.cc; sourceTree = SOURCE_ROOT; };
-		65A27E84EA1542E486316869 /* /Users/alex/Documents/Thin Foil/include/HistoManager.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HistoManager.hh; path = include/HistoManager.hh; sourceTree = SOURCE_ROOT; };
-		68A5AC532E9F4209A52751C6 /* /Users/alex/Documents/Thin Foil/include/ProjectRun.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectRun.hh; path = include/ProjectRun.hh; sourceTree = SOURCE_ROOT; };
-		6C4783F47CB54A5FA2ECA4AB /* /Users/alex/Documents/Thin Foil/src/Target.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Target.cc; path = src/Target.cc; sourceTree = SOURCE_ROOT; };
-		83AAC325ADA84F50B756543B /* /Users/alex/Documents/Thin Foil/src/HistoMessenger.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HistoMessenger.cc; path = src/HistoMessenger.cc; sourceTree = SOURCE_ROOT; };
-		8E92593B3B5A410D9B67E355 /* /Users/alex/Documents/Thin Foil/include/ProjectPrimaryGeneratorAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectPrimaryGeneratorAction.hh; path = include/ProjectPrimaryGeneratorAction.hh; sourceTree = SOURCE_ROOT; };
-		9A866BFCEF8B42908B5C90DD /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A0F31CA137894280ABEDEA2B /* /Users/alex/Documents/Thin Foil/src/ProjectPhysicsList.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectPhysicsList.cc; path = src/ProjectPhysicsList.cc; sourceTree = SOURCE_ROOT; };
-		A802B8BBDF0C4745908846FA /* /Users/alex/Documents/Thin Foil/MuonProject_rev2.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MuonProject_rev2.cc; path = MuonProject_rev2.cc; sourceTree = SOURCE_ROOT; };
-		B08FAEFE970044699C1045C8 /* /Users/alex/Documents/Thin Foil/src/ProjectStackingAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectStackingAction.cc; path = src/ProjectStackingAction.cc; sourceTree = SOURCE_ROOT; };
-		B5BAC186949547BBA45CB747 /* /Users/alex/Documents/Thin Foil/include/Field.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Field.hh; path = include/Field.hh; sourceTree = SOURCE_ROOT; };
-		B783CFC713784B0CB92F6644 /* /Users/alex/Documents/Thin Foil/src/ProjectRun.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectRun.cc; path = src/ProjectRun.cc; sourceTree = SOURCE_ROOT; };
-		BDCB78D4454F4567932072FF /* /Users/alex/Documents/Thin Foil/src/ProjectDetectorMessenger.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectDetectorMessenger.cc; path = src/ProjectDetectorMessenger.cc; sourceTree = SOURCE_ROOT; };
-		C0588F8B173647918650B1AE /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D458945DB7C44062AE14C883 /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D470A510B6A24E20BA05C958 /* /Users/alex/Documents/Thin Foil/include/ProjectPhysicsList.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectPhysicsList.hh; path = include/ProjectPhysicsList.hh; sourceTree = SOURCE_ROOT; };
-		D53642DF09FA4AA58476CE6A /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectSteppingAction.hh; path = include/ProjectSteppingAction.hh; sourceTree = SOURCE_ROOT; };
-		D5CA2E7FFCC44B24B8CC2358 /* /Users/alex/Documents/Thin Foil/include/ProjectStackingAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectStackingAction.hh; path = include/ProjectStackingAction.hh; sourceTree = SOURCE_ROOT; };
-		DB2C7FE1A860471C8B763AE7 /* /Users/alex/Documents/Thin Foil/src/ProjectEventAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectEventAction.cc; path = src/ProjectEventAction.cc; sourceTree = SOURCE_ROOT; };
-		F03E1009C208454E93DE2077 /* /Users/alex/Documents/Thin Foil/include/ProjectDetectorMessenger.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectDetectorMessenger.hh; path = include/ProjectDetectorMessenger.hh; sourceTree = SOURCE_ROOT; };
-		FB5D3D824EF34197A81F73A7 /* /Users/alex/Documents/Thin Foil/include/F03FieldSetup.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = F03FieldSetup.hh; path = include/F03FieldSetup.hh; sourceTree = SOURCE_ROOT; };
+		018A57A3124D4C4892547F8B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		12F9C2BD56954B65B55418D4 /* MuonProject_rev2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MuonProject_rev2; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB1012D45B543A7AC94583A /* ProjectSteppingVerbose.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectSteppingVerbose.cc; path = src/ProjectSteppingVerbose.cc; sourceTree = SOURCE_ROOT; };
+		27992334CA404D1F8E32FA2B /* HistoMessenger.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HistoMessenger.hh; path = include/HistoMessenger.hh; sourceTree = SOURCE_ROOT; };
+		333434B4D87041418DB4360E /* ProjectSteppingAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectSteppingAction.cc; path = src/ProjectSteppingAction.cc; sourceTree = SOURCE_ROOT; };
+		3534C11272C04AD8AEA4C100 /* ProjectSteppingVerbose.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectSteppingVerbose.hh; path = include/ProjectSteppingVerbose.hh; sourceTree = SOURCE_ROOT; };
+		3C584E5305624CD38375A789 /* Target.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Target.hh; path = include/Target.hh; sourceTree = SOURCE_ROOT; };
+		4C924ECEBA92460FAA0CF8B5 /* HistoManager.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HistoManager.cc; path = src/HistoManager.cc; sourceTree = SOURCE_ROOT; };
+		4E0431AB1FA743A4AE61427B /* ProjectRunAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectRunAction.hh; path = include/ProjectRunAction.hh; sourceTree = SOURCE_ROOT; };
+		51521545B20A4BEAAD0275D4 /* ProjectEventAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectEventAction.hh; path = include/ProjectEventAction.hh; sourceTree = SOURCE_ROOT; };
+		5711D14D84B44E1DBF82BAC7 /* ProjectRunAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectRunAction.cc; path = src/ProjectRunAction.cc; sourceTree = SOURCE_ROOT; };
+		5C789F061AD9454587085DF4 /* ProjectPrimaryGeneratorAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectPrimaryGeneratorAction.cc; path = src/ProjectPrimaryGeneratorAction.cc; sourceTree = SOURCE_ROOT; };
+		65A27E84EA1542E486316869 /* HistoManager.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HistoManager.hh; path = include/HistoManager.hh; sourceTree = SOURCE_ROOT; };
+		68A5AC532E9F4209A52751C6 /* ProjectRun.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectRun.hh; path = include/ProjectRun.hh; sourceTree = SOURCE_ROOT; };
+		6C4783F47CB54A5FA2ECA4AB /* Target.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Target.cc; path = src/Target.cc; sourceTree = SOURCE_ROOT; };
+		83AAC325ADA84F50B756543B /* HistoMessenger.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HistoMessenger.cc; path = src/HistoMessenger.cc; sourceTree = SOURCE_ROOT; };
+		8E92593B3B5A410D9B67E355 /* ProjectPrimaryGeneratorAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectPrimaryGeneratorAction.hh; path = include/ProjectPrimaryGeneratorAction.hh; sourceTree = SOURCE_ROOT; };
+		9A866BFCEF8B42908B5C90DD /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0F31CA137894280ABEDEA2B /* ProjectPhysicsList.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectPhysicsList.cc; path = src/ProjectPhysicsList.cc; sourceTree = SOURCE_ROOT; };
+		A802B8BBDF0C4745908846FA /* MuonProject_rev2.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = MuonProject_rev2.cc; sourceTree = SOURCE_ROOT; };
+		B08FAEFE970044699C1045C8 /* ProjectStackingAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectStackingAction.cc; path = src/ProjectStackingAction.cc; sourceTree = SOURCE_ROOT; };
+		B5BAC186949547BBA45CB747 /* Field.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Field.hh; path = include/Field.hh; sourceTree = SOURCE_ROOT; };
+		B783CFC713784B0CB92F6644 /* ProjectRun.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectRun.cc; path = src/ProjectRun.cc; sourceTree = SOURCE_ROOT; };
+		BDCB78D4454F4567932072FF /* ProjectDetectorMessenger.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectDetectorMessenger.cc; path = src/ProjectDetectorMessenger.cc; sourceTree = SOURCE_ROOT; };
+		C0588F8B173647918650B1AE /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D458945DB7C44062AE14C883 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D470A510B6A24E20BA05C958 /* ProjectPhysicsList.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectPhysicsList.hh; path = include/ProjectPhysicsList.hh; sourceTree = SOURCE_ROOT; };
+		D53642DF09FA4AA58476CE6A /* ProjectSteppingAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectSteppingAction.hh; path = include/ProjectSteppingAction.hh; sourceTree = SOURCE_ROOT; };
+		D5CA2E7FFCC44B24B8CC2358 /* ProjectStackingAction.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectStackingAction.hh; path = include/ProjectStackingAction.hh; sourceTree = SOURCE_ROOT; };
+		DB2C7FE1A860471C8B763AE7 /* ProjectEventAction.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProjectEventAction.cc; path = src/ProjectEventAction.cc; sourceTree = SOURCE_ROOT; };
+		F03E1009C208454E93DE2077 /* ProjectDetectorMessenger.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ProjectDetectorMessenger.hh; path = include/ProjectDetectorMessenger.hh; sourceTree = SOURCE_ROOT; };
+		FA23E6901EDEF3890010C3F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB5D3D824EF34197A81F73A7 /* F03FieldSetup.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = F03FieldSetup.hh; path = include/F03FieldSetup.hh; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -201,7 +153,7 @@
 			children = (
 				420631C1AEB34695BA03E817 /* Source Files */,
 				772CF3E728AD4C34B5F4F11B /* Header Files */,
-				9A866BFCEF8B42908B5C90DD /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */,
+				9A866BFCEF8B42908B5C90DD /* CMakeLists.txt */,
 			);
 			name = MuonProject_rev2;
 			sourceTree = "<group>";
@@ -234,7 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				1891E944D750416C8F14B249 /* CMake Rules */,
-				C0588F8B173647918650B1AE /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */,
+				C0588F8B173647918650B1AE /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -242,19 +194,20 @@
 		420631C1AEB34695BA03E817 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				A802B8BBDF0C4745908846FA /* /Users/alex/Documents/Thin Foil/MuonProject_rev2.cc */,
-				4C924ECEBA92460FAA0CF8B5 /* /Users/alex/Documents/Thin Foil/src/HistoManager.cc */,
-				83AAC325ADA84F50B756543B /* /Users/alex/Documents/Thin Foil/src/HistoMessenger.cc */,
-				BDCB78D4454F4567932072FF /* /Users/alex/Documents/Thin Foil/src/ProjectDetectorMessenger.cc */,
-				DB2C7FE1A860471C8B763AE7 /* /Users/alex/Documents/Thin Foil/src/ProjectEventAction.cc */,
-				A0F31CA137894280ABEDEA2B /* /Users/alex/Documents/Thin Foil/src/ProjectPhysicsList.cc */,
-				5C789F061AD9454587085DF4 /* /Users/alex/Documents/Thin Foil/src/ProjectPrimaryGeneratorAction.cc */,
-				B783CFC713784B0CB92F6644 /* /Users/alex/Documents/Thin Foil/src/ProjectRun.cc */,
-				5711D14D84B44E1DBF82BAC7 /* /Users/alex/Documents/Thin Foil/src/ProjectRunAction.cc */,
-				B08FAEFE970044699C1045C8 /* /Users/alex/Documents/Thin Foil/src/ProjectStackingAction.cc */,
-				333434B4D87041418DB4360E /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingAction.cc */,
-				1CB1012D45B543A7AC94583A /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingVerbose.cc */,
-				6C4783F47CB54A5FA2ECA4AB /* /Users/alex/Documents/Thin Foil/src/Target.cc */,
+				A802B8BBDF0C4745908846FA /* MuonProject_rev2.cc */,
+				4C924ECEBA92460FAA0CF8B5 /* HistoManager.cc */,
+				83AAC325ADA84F50B756543B /* HistoMessenger.cc */,
+				BDCB78D4454F4567932072FF /* ProjectDetectorMessenger.cc */,
+				DB2C7FE1A860471C8B763AE7 /* ProjectEventAction.cc */,
+				A0F31CA137894280ABEDEA2B /* ProjectPhysicsList.cc */,
+				FA23E6901EDEF3890010C3F0 /* README.md */,
+				5C789F061AD9454587085DF4 /* ProjectPrimaryGeneratorAction.cc */,
+				B783CFC713784B0CB92F6644 /* ProjectRun.cc */,
+				5711D14D84B44E1DBF82BAC7 /* ProjectRunAction.cc */,
+				B08FAEFE970044699C1045C8 /* ProjectStackingAction.cc */,
+				333434B4D87041418DB4360E /* ProjectSteppingAction.cc */,
+				1CB1012D45B543A7AC94583A /* ProjectSteppingVerbose.cc */,
+				6C4783F47CB54A5FA2ECA4AB /* Target.cc */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -276,20 +229,20 @@
 		772CF3E728AD4C34B5F4F11B /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB5D3D824EF34197A81F73A7 /* /Users/alex/Documents/Thin Foil/include/F03FieldSetup.hh */,
-				B5BAC186949547BBA45CB747 /* /Users/alex/Documents/Thin Foil/include/Field.hh */,
-				65A27E84EA1542E486316869 /* /Users/alex/Documents/Thin Foil/include/HistoManager.hh */,
-				27992334CA404D1F8E32FA2B /* /Users/alex/Documents/Thin Foil/include/HistoMessenger.hh */,
-				F03E1009C208454E93DE2077 /* /Users/alex/Documents/Thin Foil/include/ProjectDetectorMessenger.hh */,
-				51521545B20A4BEAAD0275D4 /* /Users/alex/Documents/Thin Foil/include/ProjectEventAction.hh */,
-				D470A510B6A24E20BA05C958 /* /Users/alex/Documents/Thin Foil/include/ProjectPhysicsList.hh */,
-				8E92593B3B5A410D9B67E355 /* /Users/alex/Documents/Thin Foil/include/ProjectPrimaryGeneratorAction.hh */,
-				68A5AC532E9F4209A52751C6 /* /Users/alex/Documents/Thin Foil/include/ProjectRun.hh */,
-				4E0431AB1FA743A4AE61427B /* /Users/alex/Documents/Thin Foil/include/ProjectRunAction.hh */,
-				D5CA2E7FFCC44B24B8CC2358 /* /Users/alex/Documents/Thin Foil/include/ProjectStackingAction.hh */,
-				D53642DF09FA4AA58476CE6A /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingAction.hh */,
-				3534C11272C04AD8AEA4C100 /* /Users/alex/Documents/Thin Foil/include/ProjectSteppingVerbose.hh */,
-				3C584E5305624CD38375A789 /* /Users/alex/Documents/Thin Foil/include/Target.hh */,
+				FB5D3D824EF34197A81F73A7 /* F03FieldSetup.hh */,
+				B5BAC186949547BBA45CB747 /* Field.hh */,
+				65A27E84EA1542E486316869 /* HistoManager.hh */,
+				27992334CA404D1F8E32FA2B /* HistoMessenger.hh */,
+				F03E1009C208454E93DE2077 /* ProjectDetectorMessenger.hh */,
+				51521545B20A4BEAAD0275D4 /* ProjectEventAction.hh */,
+				D470A510B6A24E20BA05C958 /* ProjectPhysicsList.hh */,
+				8E92593B3B5A410D9B67E355 /* ProjectPrimaryGeneratorAction.hh */,
+				68A5AC532E9F4209A52751C6 /* ProjectRun.hh */,
+				4E0431AB1FA743A4AE61427B /* ProjectRunAction.hh */,
+				D5CA2E7FFCC44B24B8CC2358 /* ProjectStackingAction.hh */,
+				D53642DF09FA4AA58476CE6A /* ProjectSteppingAction.hh */,
+				3534C11272C04AD8AEA4C100 /* ProjectSteppingVerbose.hh */,
+				3C584E5305624CD38375A789 /* Target.hh */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -305,7 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				74074CF5FD9644C7AB8403BE /* CMake Rules */,
-				018A57A3124D4C4892547F8B /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */,
+				018A57A3124D4C4892547F8B /* CMakeLists.txt */,
 			);
 			name = B1;
 			sourceTree = "<group>";
@@ -314,7 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				84F1F8C623CC4C3C9ACE872F /* CMake Rules */,
-				D458945DB7C44062AE14C883 /* /Users/alex/Documents/Thin Foil/CMakeLists.txt */,
+				D458945DB7C44062AE14C883 /* CMakeLists.txt */,
 			);
 			name = ZERO_CHECK;
 			sourceTree = "<group>";
@@ -358,16 +311,12 @@
 				BuildIndependentTargetsInParallel = YES;
 			};
 			buildConfigurationList = 2FF86B9FE4854E3291210486 /* Build configuration list for PBXProject "Muonraker" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				6C88EA4AE52C4ABB98B6D9D1 /* Debug */,
-				601F84380E7D47DDBDF43F5B /* Release */,
-				8D2FBE41670A48B69BB42307 /* MinSizeRel */,
-				167CC8CEC8F54A1C916028D2 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 2F9D7A8EB46947B381F5DB7A;
 			projectDirPath = ../;
 			projectRoot = "";
@@ -393,36 +342,6 @@
 			shellScript = "make -C /Users/alex/Documents/Thin\\ Foil/Xcode -f /Users/alex/Documents/Thin\\ Foil/Xcode/CMakeScripts/B1_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		5BD7820571E741029F428B49 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		9087EE0F49F94837B4042353 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		AFA89ABDA0C24D1A9FC1ECC2 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,21 +351,6 @@ exit 0";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/alex/Documents/Thin\\ Foil/Xcode -f /Users/alex/Documents/Thin\\ Foil/Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		BC69A63820794445B4C6F151 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
 			showEnvVarsInLog = 0;
 		};
 		C11BE36C2BEA4E7A88626372 /* CMake Rules */ = {
@@ -471,21 +375,6 @@ exit 0";
 			shellScript = "make -C /Users/alex/Documents/Thin\\ Foil/Xcode -f /Users/alex/Documents/Thin\\ Foil/Xcode/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		EC0457BB04494E9883788E66 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -493,19 +382,19 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1D0EE323924CC0AF11A1FA /* /Users/alex/Documents/Thin Foil/MuonProject_rev2.cc */,
-				09BF530B48DC4C91AA4868EE /* /Users/alex/Documents/Thin Foil/src/HistoManager.cc */,
-				314282C0FA344984B8257DF6 /* /Users/alex/Documents/Thin Foil/src/HistoMessenger.cc */,
-				36ECC66E3B7F4B26842210C5 /* /Users/alex/Documents/Thin Foil/src/ProjectDetectorMessenger.cc */,
-				81E7B213B893468C8872B226 /* /Users/alex/Documents/Thin Foil/src/ProjectEventAction.cc */,
-				2E693416600F4C3EA070232C /* /Users/alex/Documents/Thin Foil/src/ProjectPhysicsList.cc */,
-				85F4CB5D4FD14B218AFFB213 /* /Users/alex/Documents/Thin Foil/src/ProjectPrimaryGeneratorAction.cc */,
-				CDB8AF1483864A38B3D95956 /* /Users/alex/Documents/Thin Foil/src/ProjectRun.cc */,
-				1E4567404EC94F3CB9B5CA12 /* /Users/alex/Documents/Thin Foil/src/ProjectRunAction.cc */,
-				D5642A50333D419589E73441 /* /Users/alex/Documents/Thin Foil/src/ProjectStackingAction.cc */,
-				0B73FE0A1E82482C8F6606ED /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingAction.cc */,
-				7E6E96F030784C02AC3B3010 /* /Users/alex/Documents/Thin Foil/src/ProjectSteppingVerbose.cc */,
-				91499590878B4F73B5AA021B /* /Users/alex/Documents/Thin Foil/src/Target.cc */,
+				8F1D0EE323924CC0AF11A1FA /* MuonProject_rev2.cc in Sources */,
+				09BF530B48DC4C91AA4868EE /* HistoManager.cc in Sources */,
+				314282C0FA344984B8257DF6 /* HistoMessenger.cc in Sources */,
+				36ECC66E3B7F4B26842210C5 /* ProjectDetectorMessenger.cc in Sources */,
+				81E7B213B893468C8872B226 /* ProjectEventAction.cc in Sources */,
+				2E693416600F4C3EA070232C /* ProjectPhysicsList.cc in Sources */,
+				85F4CB5D4FD14B218AFFB213 /* ProjectPrimaryGeneratorAction.cc in Sources */,
+				CDB8AF1483864A38B3D95956 /* ProjectRun.cc in Sources */,
+				1E4567404EC94F3CB9B5CA12 /* ProjectRunAction.cc in Sources */,
+				D5642A50333D419589E73441 /* ProjectStackingAction.cc in Sources */,
+				0B73FE0A1E82482C8F6606ED /* ProjectSteppingAction.cc in Sources */,
+				7E6E96F030784C02AC3B3010 /* ProjectSteppingVerbose.cc in Sources */,
+				91499590878B4F73B5AA021B /* Target.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,9 +436,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -557,7 +450,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -588,20 +486,103 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/alex/geant4.10.02-install/lib";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = " -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -stdlib=libc++ -DG4USE_STD11 -std=c++11      -DNDEBUG     -DNDEBUG '-std=c++11'  ";
-				OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/alex/ROOT/root_install/lib/libCore.so /Users/alex/ROOT/root_install/lib/libRIO.so /Users/alex/ROOT/root_install/lib/libNet.so /Users/alex/ROOT/root_install/lib/libHist.so /Users/alex/ROOT/root_install/lib/libGraf.so /Users/alex/ROOT/root_install/lib/libGraf3d.so /Users/alex/ROOT/root_install/lib/libGpad.so /Users/alex/ROOT/root_install/lib/libTree.so /Users/alex/ROOT/root_install/lib/libRint.so /Users/alex/ROOT/root_install/lib/libPostscript.so /Users/alex/ROOT/root_install/lib/libMatrix.so /Users/alex/ROOT/root_install/lib/libPhysics.so /Users/alex/ROOT/root_install/lib/libMathCore.so /Users/alex/ROOT/root_install/lib/libThread.so /Users/alex/geant4.10.02-install/lib/libG4Tree.dylib /Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib /Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib /Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib /Users/alex/geant4.10.02-install/lib/libG4VRML.dylib /Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib /Users/alex/geant4.10.02-install/lib/libG4persistency.dylib /Users/alex/geant4.10.02-install/lib/libG4analysis.dylib /Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib /Users/alex/geant4.10.02-install/lib/libG4readout.dylib /Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib /Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib /Users/alex/geant4.10.02-install/lib/libG4FR.dylib /Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib /Users/alex/geant4.10.02-install/lib/libG4modeling.dylib /Users/alex/geant4.10.02-install/lib/libG4run.dylib /Users/alex/geant4.10.02-install/lib/libG4event.dylib /Users/alex/geant4.10.02-install/lib/libG4tracking.dylib /Users/alex/geant4.10.02-install/lib/libG4processes.dylib /Users/alex/geant4.10.02-install/lib/libG4zlib.dylib /usr/lib/libexpat.dylib /Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib /Users/alex/geant4.10.02-install/lib/libG4track.dylib /Users/alex/geant4.10.02-install/lib/libG4particles.dylib /Users/alex/geant4.10.02-install/lib/libG4geometry.dylib /Users/alex/geant4.10.02-install/lib/libG4materials.dylib /Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib /Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib /Users/alex/geant4.10.02-install/lib/libG4global.dylib /Users/alex/geant4.10.02-install/lib/libG4clhep.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-W",
+					"-Wall",
+					"-pedantic",
+					"-Wno-non-virtual-dtor",
+					"-Wno-long-long",
+					"-Wwrite-strings",
+					"-Wpointer-arith",
+					"-Woverloaded-virtual",
+					"-Wno-variadic-macros",
+					"-Wshadow",
+					"-pipe",
+					"-Qunused-arguments",
+					"-stdlib=libc++",
+					"-DG4USE_STD11",
+					"-std=c++11",
+					"-DNDEBUG",
+					"-DNDEBUG",
+					"'-std=c++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/alex/ROOT/root_install/lib/libCore.so,
+					/Users/alex/ROOT/root_install/lib/libRIO.so,
+					/Users/alex/ROOT/root_install/lib/libNet.so,
+					/Users/alex/ROOT/root_install/lib/libHist.so,
+					/Users/alex/ROOT/root_install/lib/libGraf.so,
+					/Users/alex/ROOT/root_install/lib/libGraf3d.so,
+					/Users/alex/ROOT/root_install/lib/libGpad.so,
+					/Users/alex/ROOT/root_install/lib/libTree.so,
+					/Users/alex/ROOT/root_install/lib/libRint.so,
+					/Users/alex/ROOT/root_install/lib/libPostscript.so,
+					/Users/alex/ROOT/root_install/lib/libMatrix.so,
+					/Users/alex/ROOT/root_install/lib/libPhysics.so,
+					/Users/alex/ROOT/root_install/lib/libMathCore.so,
+					/Users/alex/ROOT/root_install/lib/libThread.so,
+					"/Users/alex/geant4.10.02-install/lib/libG4Tree.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4VRML.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4persistency.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4analysis.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4readout.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4FR.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4modeling.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4run.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4event.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4tracking.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4processes.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4zlib.dylib",
+					/usr/lib/libexpat.dylib,
+					"/Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4track.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4particles.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4geometry.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4materials.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4global.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4clhep.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MuonProject_rev2;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -612,9 +593,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -622,7 +607,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -633,9 +623,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -643,7 +637,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -654,9 +653,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -664,7 +667,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -675,9 +683,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -685,7 +697,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -696,9 +713,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -706,7 +735,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -717,9 +751,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -727,7 +765,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -738,9 +781,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -748,7 +795,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -759,9 +811,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -769,7 +825,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -780,9 +841,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -790,7 +855,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -803,20 +873,102 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/alex/geant4.10.02-install/lib";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = " -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -stdlib=libc++ -DG4USE_STD11 -std=c++11                -DNDEBUG '-std=c++11'  ";
-				OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/alex/ROOT/root_install/lib/libCore.so /Users/alex/ROOT/root_install/lib/libRIO.so /Users/alex/ROOT/root_install/lib/libNet.so /Users/alex/ROOT/root_install/lib/libHist.so /Users/alex/ROOT/root_install/lib/libGraf.so /Users/alex/ROOT/root_install/lib/libGraf3d.so /Users/alex/ROOT/root_install/lib/libGpad.so /Users/alex/ROOT/root_install/lib/libTree.so /Users/alex/ROOT/root_install/lib/libRint.so /Users/alex/ROOT/root_install/lib/libPostscript.so /Users/alex/ROOT/root_install/lib/libMatrix.so /Users/alex/ROOT/root_install/lib/libPhysics.so /Users/alex/ROOT/root_install/lib/libMathCore.so /Users/alex/ROOT/root_install/lib/libThread.so /Users/alex/geant4.10.02-install/lib/libG4Tree.dylib /Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib /Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib /Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib /Users/alex/geant4.10.02-install/lib/libG4VRML.dylib /Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib /Users/alex/geant4.10.02-install/lib/libG4persistency.dylib /Users/alex/geant4.10.02-install/lib/libG4analysis.dylib /Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib /Users/alex/geant4.10.02-install/lib/libG4readout.dylib /Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib /Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib /Users/alex/geant4.10.02-install/lib/libG4FR.dylib /Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib /Users/alex/geant4.10.02-install/lib/libG4modeling.dylib /Users/alex/geant4.10.02-install/lib/libG4run.dylib /Users/alex/geant4.10.02-install/lib/libG4event.dylib /Users/alex/geant4.10.02-install/lib/libG4tracking.dylib /Users/alex/geant4.10.02-install/lib/libG4processes.dylib /Users/alex/geant4.10.02-install/lib/libG4zlib.dylib /usr/lib/libexpat.dylib /Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib /Users/alex/geant4.10.02-install/lib/libG4track.dylib /Users/alex/geant4.10.02-install/lib/libG4particles.dylib /Users/alex/geant4.10.02-install/lib/libG4geometry.dylib /Users/alex/geant4.10.02-install/lib/libG4materials.dylib /Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib /Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib /Users/alex/geant4.10.02-install/lib/libG4global.dylib /Users/alex/geant4.10.02-install/lib/libG4clhep.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-W",
+					"-Wall",
+					"-pedantic",
+					"-Wno-non-virtual-dtor",
+					"-Wno-long-long",
+					"-Wwrite-strings",
+					"-Wpointer-arith",
+					"-Woverloaded-virtual",
+					"-Wno-variadic-macros",
+					"-Wshadow",
+					"-pipe",
+					"-Qunused-arguments",
+					"-stdlib=libc++",
+					"-DG4USE_STD11",
+					"-std=c++11",
+					"-DNDEBUG",
+					"'-std=c++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/alex/ROOT/root_install/lib/libCore.so,
+					/Users/alex/ROOT/root_install/lib/libRIO.so,
+					/Users/alex/ROOT/root_install/lib/libNet.so,
+					/Users/alex/ROOT/root_install/lib/libHist.so,
+					/Users/alex/ROOT/root_install/lib/libGraf.so,
+					/Users/alex/ROOT/root_install/lib/libGraf3d.so,
+					/Users/alex/ROOT/root_install/lib/libGpad.so,
+					/Users/alex/ROOT/root_install/lib/libTree.so,
+					/Users/alex/ROOT/root_install/lib/libRint.so,
+					/Users/alex/ROOT/root_install/lib/libPostscript.so,
+					/Users/alex/ROOT/root_install/lib/libMatrix.so,
+					/Users/alex/ROOT/root_install/lib/libPhysics.so,
+					/Users/alex/ROOT/root_install/lib/libMathCore.so,
+					/Users/alex/ROOT/root_install/lib/libThread.so,
+					"/Users/alex/geant4.10.02-install/lib/libG4Tree.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4VRML.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4persistency.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4analysis.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4readout.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4FR.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4modeling.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4run.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4event.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4tracking.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4processes.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4zlib.dylib",
+					/usr/lib/libexpat.dylib,
+					"/Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4track.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4particles.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4geometry.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4materials.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4global.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4clhep.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MuonProject_rev2;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -829,20 +981,102 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/alex/geant4.10.02-install/lib";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = " -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -stdlib=libc++ -DG4USE_STD11 -std=c++11     -DG4FPE_DEBUG    '-std=c++11'  ";
-				OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/alex/ROOT/root_install/lib/libCore.so /Users/alex/ROOT/root_install/lib/libRIO.so /Users/alex/ROOT/root_install/lib/libNet.so /Users/alex/ROOT/root_install/lib/libHist.so /Users/alex/ROOT/root_install/lib/libGraf.so /Users/alex/ROOT/root_install/lib/libGraf3d.so /Users/alex/ROOT/root_install/lib/libGpad.so /Users/alex/ROOT/root_install/lib/libTree.so /Users/alex/ROOT/root_install/lib/libRint.so /Users/alex/ROOT/root_install/lib/libPostscript.so /Users/alex/ROOT/root_install/lib/libMatrix.so /Users/alex/ROOT/root_install/lib/libPhysics.so /Users/alex/ROOT/root_install/lib/libMathCore.so /Users/alex/ROOT/root_install/lib/libThread.so /Users/alex/geant4.10.02-install/lib/libG4Tree.dylib /Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib /Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib /Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib /Users/alex/geant4.10.02-install/lib/libG4VRML.dylib /Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib /Users/alex/geant4.10.02-install/lib/libG4persistency.dylib /Users/alex/geant4.10.02-install/lib/libG4analysis.dylib /Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib /Users/alex/geant4.10.02-install/lib/libG4readout.dylib /Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib /Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib /Users/alex/geant4.10.02-install/lib/libG4FR.dylib /Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib /Users/alex/geant4.10.02-install/lib/libG4modeling.dylib /Users/alex/geant4.10.02-install/lib/libG4run.dylib /Users/alex/geant4.10.02-install/lib/libG4event.dylib /Users/alex/geant4.10.02-install/lib/libG4tracking.dylib /Users/alex/geant4.10.02-install/lib/libG4processes.dylib /Users/alex/geant4.10.02-install/lib/libG4zlib.dylib /usr/lib/libexpat.dylib /Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib /Users/alex/geant4.10.02-install/lib/libG4track.dylib /Users/alex/geant4.10.02-install/lib/libG4particles.dylib /Users/alex/geant4.10.02-install/lib/libG4geometry.dylib /Users/alex/geant4.10.02-install/lib/libG4materials.dylib /Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib /Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib /Users/alex/geant4.10.02-install/lib/libG4global.dylib /Users/alex/geant4.10.02-install/lib/libG4clhep.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-W",
+					"-Wall",
+					"-pedantic",
+					"-Wno-non-virtual-dtor",
+					"-Wno-long-long",
+					"-Wwrite-strings",
+					"-Wpointer-arith",
+					"-Woverloaded-virtual",
+					"-Wno-variadic-macros",
+					"-Wshadow",
+					"-pipe",
+					"-Qunused-arguments",
+					"-stdlib=libc++",
+					"-DG4USE_STD11",
+					"-std=c++11",
+					"-DG4FPE_DEBUG",
+					"'-std=c++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/alex/ROOT/root_install/lib/libCore.so,
+					/Users/alex/ROOT/root_install/lib/libRIO.so,
+					/Users/alex/ROOT/root_install/lib/libNet.so,
+					/Users/alex/ROOT/root_install/lib/libHist.so,
+					/Users/alex/ROOT/root_install/lib/libGraf.so,
+					/Users/alex/ROOT/root_install/lib/libGraf3d.so,
+					/Users/alex/ROOT/root_install/lib/libGpad.so,
+					/Users/alex/ROOT/root_install/lib/libTree.so,
+					/Users/alex/ROOT/root_install/lib/libRint.so,
+					/Users/alex/ROOT/root_install/lib/libPostscript.so,
+					/Users/alex/ROOT/root_install/lib/libMatrix.so,
+					/Users/alex/ROOT/root_install/lib/libPhysics.so,
+					/Users/alex/ROOT/root_install/lib/libMathCore.so,
+					/Users/alex/ROOT/root_install/lib/libThread.so,
+					"/Users/alex/geant4.10.02-install/lib/libG4Tree.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4VRML.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4persistency.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4analysis.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4readout.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4FR.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4modeling.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4run.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4event.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4tracking.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4processes.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4zlib.dylib",
+					/usr/lib/libexpat.dylib,
+					"/Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4track.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4particles.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4geometry.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4materials.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4global.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4clhep.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MuonProject_rev2;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -853,9 +1087,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -863,7 +1109,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -894,20 +1145,103 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/alex/geant4.10.02-install/lib";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = " -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -Qunused-arguments -stdlib=libc++ -DG4USE_STD11 -std=c++11      -DNDEBUG     -DNDEBUG '-std=c++11'  ";
-				OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/alex/ROOT/root_install/lib/libCore.so /Users/alex/ROOT/root_install/lib/libRIO.so /Users/alex/ROOT/root_install/lib/libNet.so /Users/alex/ROOT/root_install/lib/libHist.so /Users/alex/ROOT/root_install/lib/libGraf.so /Users/alex/ROOT/root_install/lib/libGraf3d.so /Users/alex/ROOT/root_install/lib/libGpad.so /Users/alex/ROOT/root_install/lib/libTree.so /Users/alex/ROOT/root_install/lib/libRint.so /Users/alex/ROOT/root_install/lib/libPostscript.so /Users/alex/ROOT/root_install/lib/libMatrix.so /Users/alex/ROOT/root_install/lib/libPhysics.so /Users/alex/ROOT/root_install/lib/libMathCore.so /Users/alex/ROOT/root_install/lib/libThread.so /Users/alex/geant4.10.02-install/lib/libG4Tree.dylib /Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib /Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib /Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib /Users/alex/geant4.10.02-install/lib/libG4VRML.dylib /Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib /Users/alex/geant4.10.02-install/lib/libG4persistency.dylib /Users/alex/geant4.10.02-install/lib/libG4analysis.dylib /Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib /Users/alex/geant4.10.02-install/lib/libG4readout.dylib /Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib /Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib /Users/alex/geant4.10.02-install/lib/libG4FR.dylib /Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib /Users/alex/geant4.10.02-install/lib/libG4modeling.dylib /Users/alex/geant4.10.02-install/lib/libG4run.dylib /Users/alex/geant4.10.02-install/lib/libG4event.dylib /Users/alex/geant4.10.02-install/lib/libG4tracking.dylib /Users/alex/geant4.10.02-install/lib/libG4processes.dylib /Users/alex/geant4.10.02-install/lib/libG4zlib.dylib /usr/lib/libexpat.dylib /Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib /Users/alex/geant4.10.02-install/lib/libG4track.dylib /Users/alex/geant4.10.02-install/lib/libG4particles.dylib /Users/alex/geant4.10.02-install/lib/libG4geometry.dylib /Users/alex/geant4.10.02-install/lib/libG4materials.dylib /Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib /Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib /Users/alex/geant4.10.02-install/lib/libG4global.dylib /Users/alex/geant4.10.02-install/lib/libG4clhep.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-W",
+					"-Wall",
+					"-pedantic",
+					"-Wno-non-virtual-dtor",
+					"-Wno-long-long",
+					"-Wwrite-strings",
+					"-Wpointer-arith",
+					"-Woverloaded-virtual",
+					"-Wno-variadic-macros",
+					"-Wshadow",
+					"-pipe",
+					"-Qunused-arguments",
+					"-stdlib=libc++",
+					"-DG4USE_STD11",
+					"-std=c++11",
+					"-DNDEBUG",
+					"-DNDEBUG",
+					"'-std=c++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/alex/ROOT/root_install/lib/libCore.so,
+					/Users/alex/ROOT/root_install/lib/libRIO.so,
+					/Users/alex/ROOT/root_install/lib/libNet.so,
+					/Users/alex/ROOT/root_install/lib/libHist.so,
+					/Users/alex/ROOT/root_install/lib/libGraf.so,
+					/Users/alex/ROOT/root_install/lib/libGraf3d.so,
+					/Users/alex/ROOT/root_install/lib/libGpad.so,
+					/Users/alex/ROOT/root_install/lib/libTree.so,
+					/Users/alex/ROOT/root_install/lib/libRint.so,
+					/Users/alex/ROOT/root_install/lib/libPostscript.so,
+					/Users/alex/ROOT/root_install/lib/libMatrix.so,
+					/Users/alex/ROOT/root_install/lib/libPhysics.so,
+					/Users/alex/ROOT/root_install/lib/libMathCore.so,
+					/Users/alex/ROOT/root_install/lib/libThread.so,
+					"/Users/alex/geant4.10.02-install/lib/libG4Tree.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4GMocren.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4visHepRep.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4RayTracer.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4VRML.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4interfaces.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4persistency.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4analysis.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4error_propagation.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4readout.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4physicslists.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4parmodels.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4FR.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4vis_management.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4modeling.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4run.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4event.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4tracking.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4processes.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4zlib.dylib",
+					/usr/lib/libexpat.dylib,
+					"/Users/alex/geant4.10.02-install/lib/libG4digits_hits.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4track.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4particles.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4geometry.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4materials.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4graphics_reps.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4intercoms.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4global.dylib",
+					"/Users/alex/geant4.10.02-install/lib/libG4clhep.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MuonProject_rev2;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -918,9 +1252,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -928,7 +1266,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -939,9 +1282,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -949,7 +1296,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -960,9 +1312,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -970,7 +1334,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -981,9 +1350,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", G4ANALYSIS_USE_ROOT, G4_STORE_TRAJECTORY, G4VERBOSE, G4UI_USE, G4VIS_USE, G4UI_USE_TCSH, );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					G4ANALYSIS_USE_ROOT,
+					G4_STORE_TRAJECTORY,
+					G4VERBOSE,
+					G4UI_USE,
+					G4VIS_USE,
+					G4UI_USE_TCSH,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -991,7 +1372,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -1002,9 +1388,13 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/alex/geant4.10.02-install/include/Geant4", "\"/Users/alex/Documents/Thin Foil/include\"", /Users/alex/ROOT/root_install/include, );
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex/geant4.10.02-install/include/Geant4",
+					"\"/Users/alex/Documents/Thin Foil/include\"",
+					/Users/alex/ROOT/root_install/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -1012,7 +1402,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/alex/Documents/Thin Foil/Xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
