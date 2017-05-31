@@ -21,7 +21,7 @@ ProjectSteppingAction::~ProjectSteppingAction()
 {}
 
 void ProjectSteppingAction::UserSteppingAction(const G4Step* aStep)
-{	G4double t,x1,y1,z1,px,py, steplength;
+{	G4double t,x1,y1,z1,px,py,pz, steplength;
 	if (!histoManager->GetMuonOnly()){
 		for (int i=0;i<1;i++){
 			//loop through to see where the step is, then add energy dep to that array
@@ -44,13 +44,14 @@ void ProjectSteppingAction::UserSteppingAction(const G4Step* aStep)
 				y1 = aStep->GetTrack()->GetPosition().y();
                 px = aStep->GetTrack()->GetMomentumDirection().x();
                 py = aStep->GetTrack()->GetMomentumDirection().y();
-				histoManager->FillTrackHit(t,x1,y1, px, py, Energ, i, runaction->RecallEvent(), aStep->GetTrack()->GetTrackID(), parnam);
+                pz = aStep->GetTrack()->GetMomentumDirection().z();
+				histoManager->FillTrackHit(t,x1,y1, px, py, pz, Energ, i, runaction->RecallEvent(), aStep->GetTrack()->GetTrackID(), parnam);
 			}
 	}
 	if (aStep->GetPreStepPoint()->GetTouchableHandle()->GetVolume() != detector->GetTarget()) return;
 
 	//G4double charge, px, py, pz;
-    G4double charge, pz;
+    G4double charge;
 	G4ParticleDefinition* PartName = aStep->GetTrack()->GetDefinition();
 	G4double Energy = aStep->GetTrack()->GetTotalEnergy();
 	G4String parnam = PartName->GetParticleName();

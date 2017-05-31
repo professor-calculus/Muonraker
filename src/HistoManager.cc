@@ -45,7 +45,8 @@ G4String HistoManager::MakeFileName(){
 	rawtime = time(NULL);
 	strftime(date, 40, "%H%M%S_%d%b%Y", gmtime(&rawtime));
 	savef = date;
-	strcpy(name, "/data/cluster/at1062/output/RFQ/");
+	//strcpy(name, "/data/cluster/at1062/output/RFQ/");
+    strcpy(name, "Thin_Foil_");
 	strcat(name, date);
 	strcat(name, ".root");
 	return name;
@@ -77,7 +78,7 @@ void HistoManager::book()
 	//scint->Branch("Scint", &scintillators,"S1/D:S2:S3:S4:S5:S6:Event/I");
 	//Tracker data tree
 	tracker = new TTree("T","Tracker hit positions");
-	tracker->Branch("Tracker", &tracking,"t/D:x:y:px:py:Energy:Plane/I:Event:TrackID:Name/C");
+	tracker->Branch("Tracker", &tracking,"t/D:x:y:px:py:pz:Energy:Plane/I:Event:TrackID:Name/C");
 	//Outflux (ie particles exiting) tree
 	exit = new TTree("E", "Exit data of particles");
 	exit->Branch("Exits", &exits,"px/D:py:pz:x:y:z:Energy:Charge:Event/I:Exitstatus:Name/C");
@@ -172,12 +173,13 @@ void HistoManager::FillScintillatorData(G4double E[1], G4int event){
 	//scint->Fill();
 }
 
-void HistoManager::FillTrackHit(G4double t, G4double x, G4double y, G4double px, G4double py, G4double Energ, G4int plane, G4int evt, G4int track, G4String nam){
+void HistoManager::FillTrackHit(G4double t, G4double x, G4double y, G4double px, G4double py, G4double pz, G4double Energ, G4int plane, G4int evt, G4int track, G4String nam){
     tracking.t = t;
 	tracking.x = x;
 	tracking.y = y;
     tracking.px = px;
     tracking.py = py;
+    tracking.pz = pz;
 	tracking.plane = plane;
 	tracking.event = evt;
 	tracking.track = track;

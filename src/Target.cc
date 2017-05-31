@@ -168,7 +168,7 @@ void Target::DefineMaterials()
     MuonTagAbs_material = Lead;
     MuonTagSci_material = Sci;
     Tracker_material = Vacuum;
-    tungsten_material = Tungsten;
+    tungsten_material = Vacuum;
     MagQuadrupole_material = Iron;
     
     //G4double targetlength= 0.03*CLHEP::m;
@@ -222,47 +222,17 @@ void ExN04Field::GetFieldValue(const double Point[3],double *Bfield) const
     
     if(Point[2]>-1.9495*CLHEP::m && Point[2]<1.6*CLHEP::m && Point[0]<0.85*CLHEP::m && Point[0]>-0.85*CLHEP::m)
     {
-        Bfield[1] = globfieldstrength*CLHEP::tesla;
+        Bfield[0] = globfieldstrength*CLHEP::tesla;
     }
     
+    /*
     else if(Point[2]>2.605*CLHEP::m && Point[2]<3.8025*CLHEP::m)
     {
         Bfield[2] = 1.*CLHEP::tesla;
     }
+     */
     
-   /* else if(Point[2]>3.8025*CLHEP::m && Point[2]<5.6025*CLHEP::m && Point[0] < 0.5*quadrupoledistance*CLHEP::m && Point[0]>-0.5*quadrupoledistance*CLHEP::m && Point[1]<0.5*quadrupoledistance*CLHEP::m && Point[1]>-0.5*quadrupoledistance*CLHEP::m)
-    {
-        if((Point[0]/1000 - 0.5*quadrupoledistance)*(Point[0]/1000 - 0.5*quadrupoledistance) + (Point[1]/1000)*(Point[1]/1000) < (0.005*0.005)
-           || (Point[0]/1000 + 0.5*quadrupoledistance)*(Point[0]/1000 + 0.5*quadrupoledistance) + (Point[1]/1000)*(Point[1]/1000) < (0.005*0.005)
-           || (Point[1]/1000 - 0.5*quadrupoledistance)*(Point[1]/1000 - 0.5*quadrupoledistance) + (Point[0]/1000)*(Point[0]/1000) < (0.005*0.005)
-           || (Point[1]/1000 + 0.5*quadrupoledistance)*(Point[1]/1000 + 0.5*quadrupoledistance) + (Point[0]/1000)*(Point[0]/1000) < (0.005*0.005))
-        {
-            Bfield[3] = ElectricPotl*CLHEP::volt/CLHEP::m;
-            Bfield[4] = -ElectricPotl*CLHEP::volt/CLHEP::m;
-        }
-        
-        else if(Point[0]/1000 < 0.5*quadrupoledistance && Point[0]/1000 > -0.5*quadrupoledistance
-                && Point[1]/1000 < 0.5*quadrupoledistance && Point[1]/1000 > -0.5*quadrupoledistance)
-        {
-            Bfield[3] = (1/1000)*(1/quadrupoledistance)*(1/quadrupoledistance)*ElectricPotl*Point[0]*CLHEP::volt/CLHEP::m;
-            Bfield[4] = -(1/1000)*(1/quadrupoledistance)*(1/quadrupoledistance)*ElectricPotl*Point[1]*CLHEP::volt/CLHEP::m;
-        }
-        
-        else if(Point[0] > 0.5*quadrupoledistance*CLHEP::m || Point[0] < -0.5*quadrupoledistance*CLHEP::m
-                || Point[1] > 0.5*quadrupoledistance*CLHEP::m || Point[1] < -0.5*quadrupoledistance*CLHEP::m)
-        {
-            Bfield[3] = (Point[0]/(Point[0]*Point[0] + (Point[1] - 0.2*CLHEP::m)*(Point[1] - 0.2*CLHEP::m)) + Point[0]/(Point[0]*Point[0] + (Point[1]+0.2*CLHEP::m)*(Point[1]+0.2*CLHEP::m)) - ((Point[0] - 0.2*CLHEP::m)/((Point[0]-0.2*CLHEP::m)*(Point[0]-0.2*CLHEP::m) + Point[1]*Point[1])) - ((Point[0] + 0.2*CLHEP::m)/((Point[0]+0.2*CLHEP::m)*(Point[0]+0.2*CLHEP::m) + Point[1]*Point[1])))*ElectricPotl*CLHEP::volt/CLHEP::m;
-            Bfield[4] = ((Point[1]-0.2*CLHEP::m)/(Point[0]*Point[0] + (Point[1] - 0.2*CLHEP::m)*(Point[1] - 0.2*CLHEP::m)) + (Point[1]+0.2*CLHEP::m)/(Point[0]*Point[0] + (Point[1]+0.2*CLHEP::m)*(Point[1]+0.2*CLHEP::m)) - Point[1]/((Point[0]-0.2*CLHEP::m)*(Point[0]-0.2*CLHEP::m) + Point[1]*Point[1]) - Point[1]/((Point[0]+0.2*CLHEP::m)*(Point[0]+0.2*CLHEP::m) + Point[1]*Point[1]))*ElectricPotl*CLHEP::volt/CLHEP::m;
-        }
-    
-        
-        Bfield[3] = (2/quadrupoledistance)*(2/quadrupoledistance)*ElectricPotl*Point[0]*CLHEP::volt/CLHEP::m;
-        Bfield[4] = -(2/quadrupoledistance)*(2/quadrupoledistance)*ElectricPotl*Point[1]*CLHEP::volt/CLHEP::m;
-        
-    }
-
-*/
-    else
+       else
     {
         Bfield[0] = 0.;
         Bfield[1] = 0.;
@@ -332,26 +302,29 @@ void Target::SetupGeometry()
     //Tracker_box = new G4Tubs("Tracker", 5.*mm, 100.*mm, 3.*mm, 0, 360.*deg);
 	G4double enclosure;
 	enclosure = 25.*CLHEP::mm;
-	for (int i=0;i<2;i++)
+    
+    Tracker_box = new G4Box("Tracker",100.*CLHEP::mm,100.*CLHEP::mm,.05*CLHEP::mm);
+    Tracker_log[0] = new G4LogicalVolume(Tracker_box, Tracker_material,Tracker[0]+"_log",0,0,0);
+    Tracker_phys[0] = new G4PVPlacement(0, G4ThreeVector(0,0,-1.9495*CLHEP::m),
+                                        Tracker_log[0], Tracker[0], experimentalHall_log,0,0);
+    
+	for (int i=1;i<3;i++)
     {
 		//spacing = (2*targetlength+enclosure+ i*(140-2*enclosure)/2)*mm;
         
         Tracker_box = new G4Box("Tracker",500.*CLHEP::mm,500.*CLHEP::mm,.005*CLHEP::mm);
         Tracker_log[i] = new G4LogicalVolume(Tracker_box, Tracker_material,Tracker[i]+"_log",0,0,0);
-        Tracker_phys[i] = new G4PVPlacement(0, G4ThreeVector(0,0,(1.59 + 1.01*i)*CLHEP::m),
+        Tracker_phys[i] = new G4PVPlacement(0, G4ThreeVector(0,0,(0.59 + 1.01*i)*CLHEP::m),
 				Tracker_log[i], Tracker[i], experimentalHall_log,0,0);
     }
-    Tracker_box = new G4Box("Tracker",1000.*CLHEP::mm,1000.*CLHEP::mm,.005*CLHEP::mm);
-    Tracker_log[2] = new G4LogicalVolume(Tracker_box, Tracker_material,Tracker[2]+"_log",0,0,0);
-    Tracker_phys[2] = new G4PVPlacement(0, G4ThreeVector(0,0,3.816*CLHEP::m),
-                                        Tracker_log[2], Tracker[2], experimentalHall_log,0,0);
     
+    Tracker_box = new G4Box("Tracker",1000.*CLHEP::mm,1000.*CLHEP::mm,.005*CLHEP::mm);
     Tracker_log[3] = new G4LogicalVolume(Tracker_box, Tracker_material,Tracker[3]+"_log",0,0,0);
-    Tracker_phys[3] = new G4PVPlacement(0, G4ThreeVector(0,0,5.73*CLHEP::m),
+    Tracker_phys[3] = new G4PVPlacement(0, G4ThreeVector(0,0,3.816*CLHEP::m),
                                         Tracker_log[3], Tracker[3], experimentalHall_log,0,0);
 
    
- 
+ /*
  
     //-------------- the stop block //for measuring the energy of any particles which escape from the target
 
@@ -377,8 +350,9 @@ void Target::SetupGeometry()
                                        Stopblock[tintin],experimentalHall_log,0,0);
         
     }
-    
- 
+*/
+
+/*
     //--------------------------------- Shield Block
     //for a rectangular box
     
@@ -392,54 +366,7 @@ void Target::SetupGeometry()
         shield_phys[k] = new G4PVPlacement(0, G4ThreeVector((1 - 2*k)*0.9*CLHEP::m,0.*CLHEP::m,-0.46*CLHEP::m),
                                            shield_log[k],shield[k],experimentalHall_log, 0, 0);
     }
-
-   
-    
-    //---------------------------------Absorber Blocks
-    //
-   
-    /*
-    G4UniformMagField* magField3
-    = new G4UniformMagField(G4ThreeVector(-sin(CLHEP::pi/8)*fieldstrength*CLHEP::tesla,0.,cos(CLHEP::pi/8)*fieldstrength*CLHEP::tesla));
-    
-    G4Mag_UsualEqRhs* iEquation3 = new G4Mag_UsualEqRhs(magField3);
-    
-    G4MagIntegratorStepper* iStepper3 = new G4CashKarpRKF45(iEquation3);
-    //G4MagIntegratorStepper* iStepper = new G4ClassicalRK4(iEquation2);
-    
-    G4ChordFinder* iChordFinder3 = new G4ChordFinder(magField3,1.0e-2*CLHEP::mm,iStepper3);
-    
-    G4FieldManager* fm3 = new G4FieldManager(magField3,iChordFinder3);
-    
-    
-    
-    
-    G4UniformMagField* magField4
-    = new G4UniformMagField(G4ThreeVector(sin(CLHEP::pi/8)*fieldstrength*CLHEP::tesla,0.,cos(CLHEP::pi/8)*fieldstrength*CLHEP::tesla));
-    
-    G4Mag_UsualEqRhs* iEquation4 = new G4Mag_UsualEqRhs(magField4);
-    
-    G4MagIntegratorStepper* iStepper4 = new G4CashKarpRKF45(iEquation4);
-    //G4MagIntegratorStepper* iStepper = new G4ClassicalRK4(iEquation2);
-    
-    G4ChordFinder* iChordFinder4 = new G4ChordFinder(magField4,1.0e-2*CLHEP::mm,iStepper4);
-    
-    G4FieldManager* fm4 = new G4FieldManager(magField4,iChordFinder4);
-    */
-    
-    
-    /*
-    MuonTagAbs_box = new G4Box("muontagabs_box",300.*CLHEP::mm,300.*CLHEP::mm,600.*CLHEP::mm);
-    MuonTagAbs_log[0] = new G4LogicalVolume(MuonTagAbs_box,stopblock_material,MuonTagAbs[0]+"_log",0,0,0);
-    MuonTagAbs_log[1] = new G4LogicalVolume(MuonTagAbs_box,stopblock_material,MuonTagAbs[1]+"_log",0,0,0);
-    
-    for(int haddock=0;haddock<2;haddock++)
-    {
-        rotn[haddock] = new G4RotationMatrix;
-        rotn[haddock]->rotateY((-2*haddock + 1)*CLHEP::pi/8);
-        MuonTagAbs_phys[haddock] = new G4PVPlacement(rotn[haddock],G4ThreeVector(0.75*(2*haddock - 1)*CLHEP::m,0.,0.95*CLHEP::m),MuonTagAbs_log[haddock],MuonTagAbs[haddock],experimentalHall_log,0,0);
-    }
-    */
+*/
     
     
     
@@ -452,43 +379,15 @@ void Target::SetupGeometry()
     
     
     
-    /*
-    //-------------------------RF Quadrupole---------------
-    //
-    MagQuadrupole_box = new G4Tubs("magquadrupole_box",0,5.*CLHEP::mm,0.9*CLHEP::m,0,2.*CLHEP::pi);
-    for(int professorcalculus=0; professorcalculus<4;professorcalculus++)
-    {
-        MagQuadrupole_log[professorcalculus] = new G4LogicalVolume(MagQuadrupole_box,MagQuadrupole_material,MagQuadrupole[professorcalculus]+"_log",0,0,0);
-    }
-    MagQuadrupole_phys[0] = new G4PVPlacement(0,G4ThreeVector(0.5*quadrupoledistance*CLHEP::m,0.,4.7625*CLHEP::m),MagQuadrupole_log[0],MagQuadrupole[0],experimentalHall_log,0,0);
-    MagQuadrupole_phys[1] = new G4PVPlacement(0,G4ThreeVector(-0.5*quadrupoledistance*CLHEP::m,0.,4.7625*CLHEP::m),MagQuadrupole_log[1],MagQuadrupole[1],experimentalHall_log,0,0);
-    MagQuadrupole_phys[2] = new G4PVPlacement(0,G4ThreeVector(0.,0.5*quadrupoledistance*CLHEP::m,3.7625*CLHEP::m),MagQuadrupole_log[2],MagQuadrupole[2],experimentalHall_log,0,0);
-    MagQuadrupole_phys[3] = new G4PVPlacement(0,G4ThreeVector(0.,-0.5*quadrupoledistance*CLHEP::m,3.7625*CLHEP::m),MagQuadrupole_log[3],MagQuadrupole[3],experimentalHall_log,0,0);
-     
-    */
-     
-    
-/*    //------------RF Quadrupole:
-    
-    MagQuadrupole_box = new G4Tubs("magquadrupole_box",0,10.*CLHEP::mm,0.45*CLHEP::m,0,2.*CLHEP::pi);
-    
-    for(int thompson=4; thompson<8;thompson++)
-    {
-        MagQuadrupole_log[thompson] = new G4LogicalVolume(MagQuadrupole_box,MagQuadrupole_material,MagQuadrupole[thompson]+"_log",0,0,0);
-    }
-    
-    MagQuadrupole_phys[4] = new G4PVPlacement(0,G4ThreeVector(-rfquadrupoledistance*CLHEP::m,-rfquadrupoledistance*CLHEP::m,4.2025*CLHEP::m),MagQuadrupole_log[4],MagQuadrupole[4],experimentalHall_log,0,0);
-    MagQuadrupole_phys[5] = new G4PVPlacement(0,G4ThreeVector(rfquadrupoledistance*CLHEP::m,-rfquadrupoledistance*CLHEP::m,4.2025*CLHEP::m),MagQuadrupole_log[5],MagQuadrupole[5],experimentalHall_log,0,0);
-    MagQuadrupole_phys[6] = new G4PVPlacement(0,G4ThreeVector(-rfquadrupoledistance*CLHEP::m,rfquadrupoledistance*CLHEP::m,4.2025*CLHEP::m),MagQuadrupole_log[6],MagQuadrupole[6],experimentalHall_log,0,0);
-    MagQuadrupole_phys[7] = new G4PVPlacement(0,G4ThreeVector(rfquadrupoledistance*CLHEP::m,rfquadrupoledistance*CLHEP::m,4.2025*CLHEP::m),MagQuadrupole_log[7],MagQuadrupole[7],experimentalHall_log,0,0);
-    
-*/
+
 
 //--------- Visualization attributes -------------------------------
 	G4VisAttributes* BoxVisAtt= new G4VisAttributes(G4Colour(1.0,1.0,1.0));
-	BoxVisAtt->SetVisibility(true);
+	BoxVisAtt->SetVisibility(false);
 	experimentalHall_log->SetVisAttributes(BoxVisAtt);
-	targetblock_log ->SetVisAttributes(BoxVisAtt);
+    G4VisAttributes* BoxVisAtt2= new G4VisAttributes(G4Colour(1.0,1.0,1.0));
+    BoxVisAtt2->SetVisibility(true);
+	targetblock_log ->SetVisAttributes(BoxVisAtt2);
 	//stopblock_log->SetVisAttributes(BoxVisAtt);
 	G4VisAttributes* vis1 = new G4VisAttributes(G4Colour(1.,0.,0.));
 	G4VisAttributes* vis2 = new G4VisAttributes(G4Colour(0.7,1.,0.2));
@@ -501,23 +400,22 @@ void Target::SetupGeometry()
     vis4->SetForceSolid(true);
     vis5->SetForceSolid(true);
     vis6->SetForceSolid(true);
+    vis1->SetVisibility(true);
+    vis3->SetVisibility(true);
+    vis4->SetVisibility(true);
+    vis5->SetVisibility(true);
+    vis6->SetVisibility(true);
 	for (int snowy=0;snowy<2;snowy++){
 		//MuonTagAbs_log[i]->SetVisAttributes(vis3);
 		Tracker_log[snowy]->SetVisAttributes(vis2);
-        stopblock_log[0]->SetVisAttributes(vis3);
+        //stopblock_log[0]->SetVisAttributes(vis3);
         //shield_log[snowy]->SetVisAttributes(vis1);
 	}
-    shield_log[0]->SetVisAttributes(vis1);
-    shield_log[1]->SetVisAttributes(vis1);
+    //shield_log[0]->SetVisAttributes(vis1);
+    //shield_log[1]->SetVisAttributes(vis1);
     tungsten_log->SetVisAttributes(vis4);
     targetblock_log->SetVisAttributes(vis5);
     
-    /*
-    MagQuadrupole_log[0]->SetVisAttributes(vis6);
-    MagQuadrupole_log[1]->SetVisAttributes(vis6);
-    MagQuadrupole_log[2]->SetVisAttributes(vis6);
-    MagQuadrupole_log[3]->SetVisAttributes(vis6);
-    */
 
 }
 
@@ -536,7 +434,7 @@ void Target::SetupDetectors()
   primitive = new G4PSEnergyDeposit("eDepo",0);
   Dete->RegisterPrimitive(primitive);
   G4SDManager::GetSDMpointer()->AddNewDetector(Dete);
-  stopblock_log[0]->SetSensitiveDetector(Dete);
+  tungsten_log->SetSensitiveDetector(Dete);
 /*
   G4MultiFunctionalDetector* Deta = new G4MultiFunctionalDetector("DumpDet");
   //G4VPrimitiveScorer* primitive;

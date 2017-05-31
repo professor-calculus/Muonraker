@@ -111,7 +111,7 @@ void PROJECTPHYSICSLIST::ConstructEM()
       		pmanager->AddDiscreteProcess(new G4GammaConversion);
       		G4GammaConversionToMuons* conv = new G4GammaConversionToMuons;
       		pmanager->AddDiscreteProcess(conv);
-      		conv->SetCrossSecFactor(1000000);
+      		conv->SetCrossSecFactor(1);                             //Gamma --> Muon conversion boost
     	} 
     	else if (particleName == "e-") {
       		//electron

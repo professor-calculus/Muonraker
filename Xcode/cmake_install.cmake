@@ -29,44 +29,44 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/Xcode/Debug/MuonProject_rev2")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/xcode/Debug/MuonProject_rev2")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       execute_process(COMMAND /usr/bin/install_name_tool
-        -delete_rpath "/Users/alex/geant4.10.02-install/lib"
+        -delete_rpath "/Users/alex/geant4.10.2-install/lib"
         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       endif()
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/Xcode/Release/MuonProject_rev2")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/xcode/Release/MuonProject_rev2")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       execute_process(COMMAND /usr/bin/install_name_tool
-        -delete_rpath "/Users/alex/geant4.10.02-install/lib"
+        -delete_rpath "/Users/alex/geant4.10.2-install/lib"
         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       endif()
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/Xcode/MinSizeRel/MuonProject_rev2")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/xcode/MinSizeRel/MuonProject_rev2")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       execute_process(COMMAND /usr/bin/install_name_tool
-        -delete_rpath "/Users/alex/geant4.10.02-install/lib"
+        -delete_rpath "/Users/alex/geant4.10.2-install/lib"
         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       endif()
     endif()
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/Xcode/RelWithDebInfo/MuonProject_rev2")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/alex/Documents/Thin Foil/xcode/RelWithDebInfo/MuonProject_rev2")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       execute_process(COMMAND /usr/bin/install_name_tool
-        -delete_rpath "/Users/alex/geant4.10.02-install/lib"
+        -delete_rpath "/Users/alex/geant4.10.2-install/lib"
         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/MuonProject_rev2")
@@ -83,5 +83,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/alex/Documents/Thin Foil/Xcode/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/alex/Documents/Thin Foil/xcode/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

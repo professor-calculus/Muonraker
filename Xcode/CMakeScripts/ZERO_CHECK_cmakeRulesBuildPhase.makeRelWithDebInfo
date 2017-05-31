@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/alex/Documents/Thin\ Foil/Xcode/CMakeFiles/ZERO_CHECK
+	/Users/alex/Documents/Thin\ Foil/xcode/CMakeFiles/ZERO_CHECK
 
 
-/Users/alex/Documents/Thin\ Foil/Xcode/CMakeFiles/ZERO_CHECK: 
+/Users/alex/Documents/Thin\ Foil/xcode/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/alex/Documents/Thin\ Foil/Xcode/CMakeScripts/ReRunCMake.make
+	make -f /Users/alex/Documents/Thin\ Foil/xcode/CMakeScripts/ReRunCMake.make

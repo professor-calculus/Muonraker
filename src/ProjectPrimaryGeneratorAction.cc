@@ -16,7 +16,7 @@ ProjectPrimaryGeneratorAction::ProjectPrimaryGeneratorAction()
   particleGun->SetParticleDefinition(G4Electron::Electron());
   //particleGun->SetParticleDefinition(G4MuonMinus::MuonMinus());
   particleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
-  particleGun->SetParticleEnergy(999.489*CLHEP::MeV);
+  particleGun->SetParticleEnergy(4000*CLHEP::MeV);
   particleGun->SetParticlePosition(G4ThreeVector(0.*CLHEP::m,0.*CLHEP::m,-2.5*CLHEP::m));
 }
 

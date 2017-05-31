@@ -14,7 +14,7 @@ class HistoMessenger;
 const G4int MaxHisto = 21;
 typedef struct {double px, py, pz, x, y, z, en, charge; int evt, status; char name[5];} MOMENTA;
 typedef struct {double S1,S2,S3,S4,S5,S6; int evt;} SCINT;
-typedef struct {double t,x,y,px,py,en; int plane,event,track; char name[5];} TRACK;
+typedef struct {double t,x,y,px,py,pz,en; int plane,event,track; char name[5];} TRACK;
 typedef struct {double energy; int event;} EN;
 typedef struct {double x,y,z,energy; int event;} SH;
 
@@ -35,7 +35,7 @@ class HistoManager
     void FillMomentum(G4double, G4double, G4double, G4double, G4double, G4double, G4int, G4double, G4double, G4String, G4int);
     void FillExits(G4double, G4double, G4double, G4double, G4double, G4double, G4int, G4double, G4double, G4String, G4int);
 	void FillScintillatorData(G4double E[6], G4int event);
-	void FillTrackHit(G4double,G4double, G4double, G4double, G4double, G4double, G4int, G4int, G4int, G4String);
+	void FillTrackHit(G4double,G4double, G4double, G4double, G4double, G4double, G4double, G4int, G4int, G4int, G4String);
 	void FillEnergy(G4double En, G4int evt);
 	void FillShower(G4double En, G4double x, G4double y, G4double z, G4int evt);
     void SetMuonOnly(G4bool m) { MuonOnly = m;};
